@@ -1,5 +1,10 @@
 # BootStrap- Website
 
+This is an awesome project!
+
+![Screenshot of My Project](img/screen.png)
+
+
 **This project is a simple Bootstrap website that hosts four interactive games: Number Generator, Tic Tac Toe, Snake Game, and Brick Breaker. The website features a responsive Bootstrap-based navbar for easy navigation between the games, ensuring a consistent and user-friendly experience.**
 
 # Table of Contents
