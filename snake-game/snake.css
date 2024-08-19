@@ -1,0 +1,94 @@
+/* Apply styles only within a specific container */
+body{
+    
+overflow: hidden;
+}
+
+.snake-game-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'VT323', monospace;
+    background-color: #414141;
+    
+}
+
+.snake-game-container #game-board {
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+}
+
+.snake-game-container .game-border-1 {
+    border: #595f43 solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px #595f43;
+}
+
+.snake-game-container .game-border-2 {
+    border: #abb78a solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px #abb78a;
+}
+
+.snake-game-container .game-border-3 {
+    border: #8b966c solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px #8b966c;
+}
+
+.snake-game-container #instruction-text {
+    
+    top: 10%;
+    color: #ffffff;
+    width:140px;
+    text-align: center;
+    
+    margin: 0;
+}
+
+.snake-game-container .scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+.snake-game-container #score {
+    color: #abb78a;
+}
+
+.snake-game-container #score,
+.snake-game-container #highScore {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.snake-game-container #highScore {
+    color: #d8ddca;
+    display: none;
+    padding-bottom: 600px;
+    
+}
+
+.snake-game-container .game-border-3,
+.snake-game-container #logo {
+    background-color: #c4cfa3;
+}
+
+.snake-game-container .snake {
+    border: #000000 10px solid;
+}
+
+.snake-game-container .food {
+    background-color: #dedede;
+    border: #999 5px solid;
+}
+
+.snake-game-container #logo {
+    position: absolute;
+    padding-right: 80px;
+}

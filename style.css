@@ -1,0 +1,51 @@
+/* styles.css */
+
+/* Customize the navbar background and text color */
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Customize the navbar brand */
+.navbar-brand {
+    padding-left: 20px;
+    color: black;
+}
+
+/* Customize the home and link tabs */
+.navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
+    color:black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: black;
+}
+
+/* Customize the contact and social links */
+.navbar-nav .ml-auto .nav-item .nav-link {
+    padding: 10px 20px;
+    color: black;
+}
+
+.navbar-nav .ml-auto .nav-item .nav-link:hover {
+    color: black;
+}
+
+/* Customize the Font Awesome icons */
+.navbar-nav .nav-item .nav-link i {
+    margin-right: 5px;
+    color: black;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-body .btn {
+    margin-top: auto;
+}
+.nav-item {
+    align-items: right;
+    margin-right: 20px; /* Adjust the spacing as needed */
+}

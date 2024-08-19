@@ -1,0 +1,87 @@
+
+.background {
+    background-color: #ffffff;
+   
+    
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 7%;
+}
+
+.display {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+   
+
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33%;
+    max-width: 333px;
+    gap: 1.5;
+
+}
+
+.tile {
+    border: 1px solid rgb(0, 0, 0);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    font-family: 'Tmes New Roman', Times, serif;
+    border-radius: 1rem;
+
+}
+
+.playerX {
+    color: #000000;
+}
+
+.playerO {
+    color: #000000;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+}

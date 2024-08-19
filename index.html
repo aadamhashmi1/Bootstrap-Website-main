@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Contact and Social Links</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-body .btn {
+            margin-top: auto;
+        }
+        .nav-item {
+            align-items: right;
+            margin-right: 20px; /* Adjust the spacing as needed */
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+   
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card h-100">
+                    <img src="img/image1.png" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">TIC-TAC-TOE</h5>
+                        <p class="card-text">A two player simple TIC TOE game.</p>
+                        <a href="/tictactoe-game/tictactoe.html" class="btn btn-primary">Play Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card h-100">
+                    <img src="img/image2.png" class="card-img-top" alt="Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Random-Number-Generator</h5>
+                        <p class="card-text">A Random Random-Number-Generator game that has three difficulty modes.</p>
+                        <a href="/number-game/number.html" class="btn btn-primary">Play Game</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 d-flex align-items-stretch">
+                <div class="card h-100">
+                    <img src="img/snake-game-ai-gen.png" class="card-img-top" alt="Image 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="/snake-game/snake.html" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <!-- Navbar will be injected here by JavaScript -->
+ <script src="navbar.js"></script>
+</body>
+</html>

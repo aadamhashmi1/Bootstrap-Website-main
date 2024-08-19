@@ -1,0 +1,78 @@
+
+
+.container {
+    background-color: #fff;
+    padding: 180px;
+    
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    text-decoration-line: underline;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#win-screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#win-screen .content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#win-screen h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#win-screen img {
+    width: 100px;
+    height: 100px;
+}
+
+#win-screen button {
+    background-color: #f44336;
+    color: white;
+}
+
